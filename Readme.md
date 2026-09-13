@@ -1,5 +1,6 @@
-# Data Job Market Analysis
 
+# Data Job Market Analysis
+<img width="976" height="548" alt="Screenshot 2026-09-13 013009" src="https://github.com/user-attachments/assets/8205ec54-b053-4443-b259-1a08d627a9fa" />
 
 ## Introduction
 
@@ -22,6 +23,10 @@ This a job based dataset which comprises of a year (2024) market research. It co
 **i** `skill_dim`:
 This table consists of 3 columns , the skill_id, skills and type.The skill_id is a unique id for each skill and the skills colume contains the main skill while the type is the category of the skill.
 
+
+<img width="232" height="553" alt="Screenshot 2026-09-13 013555" src="https://github.com/user-attachments/assets/328066ba-5555-48f0-b945-08929e695c22" />
+
+
 ### Data Cleaning Process
 The table had many inconsistency in the data which I cleaned up using power query.
 - I started by changing the data type of the skill_dim column from text to number. 
@@ -29,6 +34,9 @@ The table had many inconsistency in the data which I cleaned up using power quer
 
 **ii** `job_postings_fact`:
 This is the flat table which contains the crucial information about the project. 
+
+<img width="1287" height="539" alt="Screenshot 2026-09-13 013314" src="https://github.com/user-attachments/assets/0dfd9848-f1ff-4c24-a75e-d82ecba11912" />
+
 
 ### Data Cleaning Process
 - I extracted date from the normal datetime column I had. This is to improve the relationship connection between the table and calender table. The major reason behind extracting date instead of using datetime is to prevent confusion and ambuguity when analyzing.
