@@ -13,7 +13,8 @@ The analysis is meant to help newcomers looking to venture into the
 data space, offering an explanation of the career path, what to 
 expect, and the requirements for each role.
 
-You can access the interactive dashboard here! [Data_market_analysis.pbix](./Data_market_analysis.pbix)
+You can access the interactive dashboard here! 
+[Data_market_analysis.pbix](./Data_market_analysis.pbix)
 
 ## Data Structure and Cleaning Process
 This a job based dataset which comprises of a year (2024) market research. It comprises of 5 main tables which has different table content for proper analysis. The tables are: `skill_dim`,`job_postings_fact`,`skills_job_dim`,`company_dim`,`schedule_dim`.
